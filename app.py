@@ -3,7 +3,7 @@ import dash
 from dash import dcc, html, Input, Output, State, dash_table, ctx
 import pandas as pd
 import plotly.express as px
-
+# improve filters
 # --- загрузка ---
 df = pd.read_csv("data.csv")
 df["date"] = pd.to_datetime(df["date"])
