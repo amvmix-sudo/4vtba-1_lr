@@ -1,3 +1,4 @@
+# новый график
 import dash
 from dash import dcc, html, Input, Output, State, dash_table, ctx
 import pandas as pd
