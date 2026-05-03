@@ -74,7 +74,7 @@ app.layout = html.Div([
         page_size=10
     )
 ])
-
+# add histogram improvements
 # --- callback ---
 @app.callback(
     Output("line", "figure"),
