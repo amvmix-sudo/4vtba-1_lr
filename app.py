@@ -204,6 +204,6 @@ def update(cat, start, end, add, delete, table_data, reset,
         end
     )
 
-
+# UI tweaks
 if __name__ == "__main__":
     app.run(debug=True)
