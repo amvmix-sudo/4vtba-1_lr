@@ -188,7 +188,7 @@ def update(cat, start, end, add, delete, table_data, reset,
     )
 
     hist = px.histogram(dff, x="expense")
-
+# enhance table view
     return (
         line,
         income_expense,
