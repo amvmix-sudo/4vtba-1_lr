@@ -20,8 +20,8 @@ app = dash.Dash(__name__)
 # --- layout ---
 app.layout = html.Div([
 
-    html.H1("Мой дашборд — версия B"),
-
+    html.H1("Мой дашборд — финальная версия"),
+    
     # KPI
     html.Div([
         html.Div(id="income"),
